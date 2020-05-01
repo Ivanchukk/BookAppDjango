@@ -1,0 +1,17 @@
+{% load static % .}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1> Here we will start to write a book from same sentence, witch is, 'He opend his ayes and saw white around him'. Each writer will take this story to his direction. Also you will be able to continue the strory of some one alse. lets say from the chapter 3 of user number 5 </h1>
+<ul>
+{% for my_sub in my_list %}
+    <li>{{ my_sub }}</li>
+{% endfor %}
+</ul>
+</body>
+</html>
